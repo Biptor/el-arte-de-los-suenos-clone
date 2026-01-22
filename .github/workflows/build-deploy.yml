@@ -8,7 +8,7 @@ on:
       - release
 
 jobs:
-  build_deploy:
+  build:
     name: 'build'
     runs-on: ubuntu-latest
 

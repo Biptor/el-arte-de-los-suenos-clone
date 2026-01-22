@@ -32,7 +32,7 @@ jobs:
         run: npm run build
 
       - name: Creates 404 pages
-        run: cp dist/${{github.event.repository.name}}/index.html dist/${{github.event.repository.name}}404.html
+        run: cp client/${{github.event.repository.name}}/index.html client/${{github.event.repository.name}}404.html
 
       #Deploy GitHub Pages
       - name: Deploy GH Pages

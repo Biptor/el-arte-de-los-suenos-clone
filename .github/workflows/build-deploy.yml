@@ -33,7 +33,7 @@ jobs:
 
       #Create 404 Page
       - name: Creates 404 Page
-        run: cp dist/${{ github.event.repository.name }}/index.html dist/${{ github.event.repository.name }}/404.html
+        run: cp dist/public/index.html dist/public/404.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

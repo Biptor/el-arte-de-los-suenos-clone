@@ -3,6 +3,7 @@ name: 'Build and Deploy'
 permissions:
   contents: read # Default or specific permissions
   id-token: write # Required for OpenID Connect (OIDC) authentication
+  pages: write
   # Add other permissions as needed, e.g., pages: write
 
 on:

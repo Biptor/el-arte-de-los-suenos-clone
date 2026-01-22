@@ -9,9 +9,19 @@ async function startServer() {
   const app = express();
   const server = createServer(app);
   const staticPath = process.env.NODE_ENV === "production" ? path.resolve(__dirname, "public") : path.resolve(__dirname, "..", "dist", "public");
-  app.use(express.static(staticPath));
+  app.use(express.static(staticPath, {
+    maxAge: "1h",
+    etag: false
+  }));
   app.get("*", (_req, res) => {
-    res.sendFile(path.join(staticPath, "index.html"));
+    const indexPath = path.join(staticPath, "index.html");
+    res.setHeader("Content-Type", "text/html; charset=utf-8");
+    res.sendFile(indexPath, (err) => {
+      if (err) {
+        console.error("Error serving index.html:", err);
+        res.status(500).send("Internal Server Error");
+      }
+    });
   });
   const port = process.env.PORT || 3e3;
   server.listen(port, () => {

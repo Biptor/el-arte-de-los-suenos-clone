@@ -9,7 +9,7 @@ on:
 
 jobs:
   build_deploy:
-    name: 'Build and Deploy'
+    name: 'build'
     runs-on: ubuntu-latest
 
     steps:
@@ -31,9 +31,31 @@ jobs:
       - name: Build
         run: npm run build
 
-      #Deploy GitHub Pages
-      - name: Deploy GH Pages
-        uses: peaceiris/actions-gh-pages@v4
+      #Create 404 Page
+      - name: Creates 404 Page
+        run: cp dist/${{ github.event.repository.name }}/index.html dist/${{ github.event.repository.name }}/404.html
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist
+          path: dist/${{ github.event.repository.name }}
+
+      # #Deploy GitHub Pages
+      # - name: Deploy GH Pages
+      #   uses: peaceiris/actions-gh-pages@v4
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: dist
+
+  deploy:
+    name: 'Deploy'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy GH Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -9,7 +9,6 @@ const plugins = [react(), tailwindcss(), vitePluginManusRuntime()];
 
 export default defineConfig({
   plugins,
-  base: "/el-arte-de-los-suenos-clone/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),

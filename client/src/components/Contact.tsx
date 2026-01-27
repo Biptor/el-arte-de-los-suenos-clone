@@ -89,7 +89,7 @@ export default function Contact() {
             {/* Image */}
             <div className="mt-8 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/images/cta-help.jpg"
+                src="https://biptor.github.io/el-arte-de-los-suenos-clone/images/cta-help.jpg"
                 alt="Comunidad unida"
                 className="w-full h-64 object-cover"
               />

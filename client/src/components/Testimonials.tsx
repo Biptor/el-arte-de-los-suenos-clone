@@ -53,10 +53,10 @@ export default function Testimonials() {
         {/* Section Header */}
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-primary text-sm font-sans font-semibold uppercase tracking-wide">
-            Historias de Transformación
+            Lorem Ipsun
           </h2>
           <h3 className="font-display text-4xl md:text-5xl text-foreground">
-            Testimonios de Soñadores
+            Lorem Ipsun
           </h3>
         </div>
 
@@ -65,7 +65,7 @@ export default function Testimonials() {
           <div
             className="bg-white rounded-lg shadow-lg p-8 md:p-12 relative min-h-96 flex flex-col justify-between"
             style={{
-              backgroundImage: 'url(/images/testimonial-bg.jpg)',
+              backgroundImage: 'url(https://biptor.github.io/el-arte-de-los-suenos-clone/images/testimonial-bg.jpg)',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
             }}

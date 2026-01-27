@@ -10,7 +10,7 @@ export default function HeroSection() {
       id="inicio"
       className="relative h-screen md:h-[600px] bg-cover bg-center overflow-hidden"
       style={{
-        backgroundImage: 'url(/images/hero-banner.jpg)',
+        backgroundImage: 'url(https://biptor.github.io/el-arte-de-los-suenos-clone/images/hero-banner.jpg)',
         backgroundAttachment: 'fixed',
       }}
     >

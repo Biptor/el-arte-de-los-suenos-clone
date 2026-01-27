@@ -12,7 +12,7 @@ export default function WhatWeDo() {
           {/* Left: Image */}
           <div className="order-2 md:order-1">
             <img
-              src="/images/section-arts.jpg"
+              src="./images/section-arts.jpg"
               alt="Jóvenes participando en actividades artísticas"
               className="w-full rounded-lg shadow-lg object-cover h-96"
             />

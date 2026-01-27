@@ -14,24 +14,17 @@ export default function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      quote: 'La Fundación me ha prestado un apoyo incondicional ya que en ella muestro todo el potencial que tengo, toda la felicidad y adoro lo que hago. Mediante el baile yo puedo desahogarme, ser quien realmente soy, estoy demasiado agradecida con la oportunidad que me han dado.',
-      author: 'Leidy Mosquera Palacios',
-      location: 'Bello',
-      likes: 123,
+      quote: 'Texto descriptivo',
+      author: 'Nombre',
+      location: 'Nombre ubicación',
+      likes: 1,
     },
     {
       id: 2,
-      quote: 'Para mí la fundación es un lugar donde no solo vas a cantar, bailar y hacer percusión. Allí aprendemos que es la disciplina, el esfuerzo, las ganas, la constancia, la persistencia, es un lugar lleno de vida.',
-      author: 'Laura Serna',
-      location: 'La Estrella',
-      likes: 100,
-    },
-    {
-      id: 3,
-      quote: 'El arte de los sueños es amor, familia, felicidad y esperanza porque sacan lo mejor de nosotros. He conocido personas realmente maravillosas que solo buscan cosas buenas.',
-      author: 'Soñador Anónimo',
-      location: 'Antioquia',
-      likes: 87,
+      quote: 'Texto descriptivo.',
+      author: 'Nombre',
+      location: 'Nombre Ubicación',
+      likes: 2,
     },
   ];
 

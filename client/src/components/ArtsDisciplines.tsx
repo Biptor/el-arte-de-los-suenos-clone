@@ -10,38 +10,10 @@ export default function ArtsDisciplines() {
   const disciplines = [
     {
       id: 1,
-      name: 'Composición',
+      name: 'Nombre disciplina',
       icon: Music,
-      description: 'Aprende a componer letras de canciones en géneros urbanos como RAP y Reggaetón, desarrollando tu creatividad lírica.',
+      description: 'Lorem Ipsun',
       color: 'from-accent to-accent/70',
-    },
-    {
-      id: 2,
-      name: 'Danza',
-      icon: Users,
-      description: 'Domina el Hip-Hop dance y break dance con técnicas acrobáticas, movimientos rápidos e inventivos.',
-      color: 'from-primary to-primary/70',
-    },
-    {
-      id: 3,
-      name: 'Artes Gráficas',
-      icon: Palette,
-      description: 'Expresa tu creatividad visual a través del graffiti y otras formas de arte urbano, viviendo una experiencia transformadora.',
-      color: 'from-accent/80 to-accent/50',
-    },
-    {
-      id: 4,
-      name: 'Canto',
-      icon: Mic2,
-      description: 'Desarrolla tu técnica vocal y manejo de aspectos rítmicos, auditivos, armónicos y creativos.',
-      color: 'from-primary/80 to-primary/50',
-    },
-    {
-      id: 5,
-      name: 'Percusión',
-      icon: Drum,
-      description: 'Fortalece tu sentido rítmico, escucha, técnica y lenguaje musical a través de instrumentos de percusión.',
-      color: 'from-accent/60 to-accent/40',
     },
   ];
 
@@ -51,13 +23,13 @@ export default function ArtsDisciplines() {
         {/* Section Header */}
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-primary text-sm font-sans font-semibold uppercase tracking-wide">
-            Nuestras Disciplinas
+            Lorem Ipsun
           </h2>
           <h3 className="font-display text-4xl md:text-5xl text-foreground">
-            Expresión a Través del Arte
+            Lorem Ipsun
           </h3>
           <p className="text-foreground/70 font-sans text-lg max-w-2xl mx-auto">
-            Cada disciplina está diseñada para fortalecer habilidades técnicas, emocionales y sociales.
+            Lorem Ipsun
           </p>
         </div>
 

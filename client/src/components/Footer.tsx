@@ -20,12 +20,12 @@ export default function Footer() {
                 <span className="font-display font-bold">A</span>
               </div>
               <div>
-                <h3 className="font-display font-bold">El Arte</h3>
-                <p className="text-xs text-white/70">de los Sueños</p>
+                <h3 className="font-display font-bold">Fundación</h3>
+                <p className="text-xs text-white/70">el arte</p>
               </div>
             </div>
             <p className="text-white/70 font-sans text-sm leading-relaxed">
-              Transformando vidas de adolescentes a través del arte y la música.
+              Lorem Ipsun
             </p>
           </div>
 
@@ -117,7 +117,7 @@ export default function Footer() {
           {/* Bottom Footer */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 font-sans text-sm text-white/70">
             <p>
-              © {currentYear} El Arte de los Sueños. Todos los derechos reservados.
+              © {currentYear} Fundacion Arte. Todos los derechos reservados.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="hover:text-white transition-colors">
@@ -131,9 +131,9 @@ export default function Footer() {
 
           {/* Made with love */}
           <div className="text-center mt-6 text-white/60 font-sans text-xs flex items-center justify-center gap-1">
-            Hecho con
+            Lorem Ipsun
             <Heart className="w-4 h-4 text-accent fill-current" />
-            para los soñadores
+            Lorem Ipsun
           </div>
         </div>
       </div>

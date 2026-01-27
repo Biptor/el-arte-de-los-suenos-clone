@@ -40,10 +40,10 @@ export default function Contact() {
             Ponte en Contacto
           </h2>
           <h3 className="font-display text-4xl md:text-5xl text-foreground">
-            ¡Transformemos más vidas juntos!
+            Lorem Ipsun
           </h3>
           <p className="text-foreground/70 font-sans text-lg max-w-2xl mx-auto">
-            Cada ser humano está en la capacidad de aportar de alguna manera en la transformación de realidades. Si quieres apoyarnos, no dudes en contactarnos.
+            Lorem Ipsun
           </p>
         </div>
 
@@ -61,10 +61,10 @@ export default function Contact() {
               <div>
                 <h4 className="font-display text-lg font-bold text-foreground mb-1">Email</h4>
                 <a
-                  href="mailto:cuentanos@elartedelossuenos.com"
+                  href="mailto:contactanos@gmail.com"
                   className="text-foreground/70 hover:text-primary font-sans transition-colors"
                 >
-                  cuentanos@elartedelossuenos.com
+                  contactanos@gmail.com
                 </a>
               </div>
             </div>
@@ -76,12 +76,14 @@ export default function Contact() {
                   <MapPin className="h-6 w-6 text-accent" />
                 </div>
               </div>
+              {/*
               <div>
                 <h4 className="font-display text-lg font-bold text-foreground mb-1">Ubicación</h4>
                 <p className="text-foreground/70 font-sans">
                   Antioquia, Colombia
                 </p>
               </div>
+              */}
             </div>
 
             {/* Image */}

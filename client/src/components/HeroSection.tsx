@@ -22,18 +22,20 @@ export default function HeroSection() {
         <div className="max-w-3xl space-y-6 animate-fade-in">
           {/* Main Headline */}
           <h1 className="font-display font-bold text-white text-4xl md:text-6xl lg:text-7xl leading-tight">
-            El Arte y la Música
+            Lorem Ipsun
           </h1>
 
           {/* Subheading */}
           <p className="font-display text-white text-2xl md:text-3xl font-light italic">
-            Salvaron mi vida, me permitieron soñar y crear esperanzas
+            Lorem Ipsun
           </p>
 
           {/* Attribution */}
+          {/*
           <p className="text-white/90 font-sans text-sm md:text-base">
             ~ Maluma ~
           </p>
+          */}
 
           {/* CTA Button */}
           <div className="pt-4">

@@ -30,11 +30,11 @@ export default function WhatWeDo() {
             </div>
 
             <p className="text-foreground/80 font-sans text-lg leading-relaxed">
-              Formamos adolescentes en situación de vulnerabilidad en el ser, saber y hacer, a través del arte. Nuestro objetivo es transformar vidas y crear oportunidades para que cada joven descubra su potencial artístico y personal.
+              Descripción
             </p>
 
             <p className="text-foreground/80 font-sans text-lg leading-relaxed">
-              A través de disciplinas como composición, danza, artes gráficas, canto y percusión, los soñadores fortalecen su autoestima, desarrollan habilidades técnicas y encuentran un espacio seguro para expresarse.
+              Parrafo
             </p>
 
             {/* Stats */}

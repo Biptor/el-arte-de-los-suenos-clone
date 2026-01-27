@@ -11,43 +11,15 @@ export default function Projects() {
     {
       id: 1,
       name: 'La Estrella',
-      date: 'Desde Abril 2017',
-      description: 'Colaboración con la Secretaría de Educación del municipio. Formamos a 40 adolescentes en diferentes disciplinas artísticas.',
+      date: 'Fecha o desde',
+      description: 'Descripción',
       status: 'Activo',
     },
     {
       id: 2,
-      name: 'Bello',
-      date: 'Desde 2017',
-      description: 'En la Institución Educativa Natasha y Michael D iniciamos nuestro proceso de transformación a través del arte urbano.',
-      status: 'Activo',
-    },
-    {
-      id: 3,
-      name: 'El Retiro',
-      date: 'Desde 2017',
-      description: 'Convencidos de que los sueños son el mejor medio para cambiar realidades, exploramos nuevos territorios.',
-      status: 'Activo',
-    },
-    {
-      id: 4,
-      name: 'Santa Bárbara',
-      date: 'Desde 2017',
-      description: 'Deseando que los sueños de muchos jóvenes se hagan realidad, encontramos un excelente aliado en la institución educativa Tomás Eastman.',
-      status: 'Activo',
-    },
-    {
-      id: 5,
-      name: 'Sopetrán',
-      date: 'Desde 2017',
-      description: 'Historia, tradición y la mejor variedad de frutas. Llegamos al occidente antioqueño con nuestro programa de transformación.',
-      status: 'Activo',
-    },
-    {
-      id: 6,
-      name: 'San Pedro',
-      date: 'Desde 2017',
-      description: 'Con la firme intención de seguir recorriendo los rincones de Antioquia, descubrimos un talento extraordinario en el norte.',
+      name: 'Nombre ubicación',
+      date: 'fecha o desde',
+      description: 'Descripción',
       status: 'Activo',
     },
   ];
@@ -58,13 +30,13 @@ export default function Projects() {
         {/* Section Header */}
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-primary text-sm font-sans font-semibold uppercase tracking-wide">
-            Nuestro Alcance
+            Lorem Ipsun
           </h2>
           <h3 className="font-display text-4xl md:text-5xl text-foreground">
             Proyectos Activos
           </h3>
           <p className="text-foreground/70 font-sans text-lg max-w-2xl mx-auto">
-            Presentes en múltiples comunidades de Antioquia, transformando vidas a través del arte.
+            Lorem ipsun
           </p>
         </div>
 

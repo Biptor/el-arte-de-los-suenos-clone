@@ -27,8 +27,8 @@ export default function Header() {
             <span className="text-white font-display font-bold text-lg">A</span>
           </div>
           <div className="hidden sm:block">
-            <h1 className="text-xl font-display font-bold text-primary">El Arte</h1>
-            <p className="text-xs text-muted-foreground">de los Sueños</p>
+            <h1 className="text-xl font-display font-bold text-primary">Fundación</h1>
+            <p className="text-xs text-muted-foreground">El Arte</p>
           </div>
         </div>
 

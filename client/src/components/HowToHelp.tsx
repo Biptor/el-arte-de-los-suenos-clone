@@ -11,26 +11,26 @@ export default function HowToHelp() {
     {
       id: 1,
       icon: Lightbulb,
-      title: 'Orar',
-      description: 'Contribuye con tus buenos deseos y oraciones. Tu apoyo espiritual es fundamental para la transformación de nuestros soñadores.',
+      title: 'Nombre Commo',
+      description: 'Descripción',
       color: 'from-primary to-primary/70',
-      action: 'Enviar Oración',
+      action: 'Acción',
     },
     {
       id: 2,
       icon: Heart,
-      title: 'Donar',
-      description: 'Un apoyo monetario que nos brindará la capacidad de cumplir más sueños y expandir nuestros programas a más comunidades.',
-      color: 'from-accent to-accent/70',
-      action: 'Hacer Donación',
+      title: 'Nombre Commo',
+      description: 'Descripción',
+      color: 'from-primary to-primary/70',
+      action: 'Acción',
     },
     {
       id: 3,
       icon: Hand,
-      title: 'Voluntariado',
-      description: 'Sé voluntario y acompáñanos a transformar muchas vidas. Tu tiempo y talento son invaluables para nuestra misión.',
-      color: 'from-primary/80 to-primary/50',
-      action: 'Únete al Equipo',
+      title: 'Nombre Commo',
+      description: 'Descripción',
+      color: 'from-primary to-primary/70',
+      action: 'Acción',
     },
   ];
 
@@ -40,13 +40,13 @@ export default function HowToHelp() {
         {/* Section Header */}
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-primary text-sm font-sans font-semibold uppercase tracking-wide">
-            Únete a Nuestra Misión
+            Lorem Ipsun
           </h2>
           <h3 className="font-display text-4xl md:text-5xl text-foreground">
-            ¿Nos ayudas a soñar?
+            Lorem Ipsun
           </h3>
           <p className="text-foreground/70 font-sans text-lg max-w-2xl mx-auto">
-            Hay muchas maneras de hacerlo y todas muy importantes. Cada contribución nos acerca a transformar más vidas.
+            Lorem Ipsun
           </p>
         </div>
 
@@ -95,16 +95,16 @@ export default function HowToHelp() {
         {/* CTA Section */}
         <div className="bg-gradient-to-r from-primary to-accent rounded-lg shadow-lg p-8 md:p-12 text-center space-y-6">
           <h3 className="font-display text-3xl md:text-4xl font-bold text-white">
-            ¡Transformemos más vidas juntos!
+            Lorem Ipsun
           </h3>
           <p className="text-white/90 font-sans text-lg max-w-2xl mx-auto">
-            Cada ser humano está en la capacidad de aportar de alguna manera en la transformación de realidades. Tu ayuda puede ser muy valiosa.
+            Lorem Ipsun
           </p>
           <a
             href="#contacto"
             className="inline-block px-8 py-3 bg-white text-primary font-sans font-semibold rounded-lg hover:bg-white/90 transition-all duration-300 transform hover:scale-105"
           >
-            Contacta con Nosotros
+            Contactanos
           </a>
         </div>
       </div>
